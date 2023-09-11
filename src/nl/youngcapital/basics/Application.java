@@ -1,4 +1,4 @@
-package nl.youngcapital.muziek;
+package nl.youngcapital.basics;
 
 import nl.youngcapital.muziek.model.*;
 
@@ -62,7 +62,7 @@ public class Application {
         
         // Met die basistypes maak jij reference-types of classes
         
-        //
+        // Methode 
         
         
     }
