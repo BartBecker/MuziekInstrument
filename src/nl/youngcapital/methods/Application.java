@@ -1,12 +1,13 @@
 package nl.youngcapital.methods;
 
 import nl.youngcapital.muziek.model.MuziekInstrument;
+import nl.youngcapital.muziek.model.Recorder;
 import nl.youngcapital.muziek.model.SnaarInstrument;
 
 public class Application {
 	
 	public static void main(String[] args) {
-		 MuziekInstrument instrument = new MuziekInstrument();
+		 MuziekInstrument instrument = new Recorder();
 		 SnaarInstrument instrumentSnaar = new SnaarInstrument();
 		 
 		 instrument.color = "blue";

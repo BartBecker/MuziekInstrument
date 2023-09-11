@@ -2,8 +2,8 @@ package nl.youngcapital.muziek.model;
 
 public class Person {
 	
-	public String name;
-	public int age;
+	private String name;
+	private int age;
 	
 	// Een verplichtingsregel in Java dwing je af met een constructor
 	/* Syntax
@@ -15,8 +15,31 @@ public class Person {
 	 * 
 	 */
 
-	public Person(String name) {
+	/*public Person(String name, int age) {
 		this.name = name;
+		this.age = age;
+	}
+*/
+	// met getters en setters implementeer
+		
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		
+		if (age >= 10) {
+			this.age = age;
+		}
+		System.out.println("error");
+	}
+
+	public String getName() {
+		return name;
+	}
+	
+	public Person() {
+		
 	}
 	
 }

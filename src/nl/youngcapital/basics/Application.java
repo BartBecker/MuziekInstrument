@@ -4,6 +4,9 @@ import nl.youngcapital.muziek.model.*;
 
 public class Application {
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("hello world");
        // syso = hetzelfde maar dan in eclipse
@@ -14,17 +17,19 @@ public class Application {
          <Type> <naam van het object> = new <Type>();
          */
         
-        MuziekInstrument instrument = new MuziekInstrument();
+        MuziekInstrument instrument = new Recorder();
         instrument.color = "Bruin";
         instrument.price = 150.00;
         
         System.out.println(instrument.color);
         
-        MuziekInstrument instrument2 = new MuziekInstrument();
+        MuziekInstrument instrument2 = new Piano();
         instrument2.color = "Red";
         instrument2.price = 300.00;
         
+        
         System.out.println(instrument2.price);
+        System.out.println(instrument2.play());
         
         // wat is een variable? iets wat kan veranderen
         
@@ -65,6 +70,7 @@ public class Application {
         // Methode 
         
         
-    }
+    
+	}
 
 }

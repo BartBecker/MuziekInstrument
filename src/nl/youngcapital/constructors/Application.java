@@ -6,11 +6,13 @@ public class Application {
 	
 	public static void main(String[] args) {
 		
-		Person piet = new Person("piet");
-		System.out.println(piet.name);
+		Person piet = new Person();
+		System.out.println(piet.getName());
 		
-		Person bart = new Person("Bart");
-		System.out.println(bart.name);
+		Person bart = new Person();
+		System.out.println(bart.getName());
+		bart.setAge(-3);
+		System.out.println(bart.getAge());
 	}
 
 }
